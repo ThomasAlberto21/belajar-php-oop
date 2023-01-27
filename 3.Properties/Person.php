@@ -21,6 +21,7 @@
 // * Jika kita mencoba mengubah properties dengan type yang berbeda, maka otomatis akan error
 // * Ingat, bahwa PHP memiliki fitur type juggling, yang secara otomatis bisa mengkonversi ke tipe data lain
 // * Untuk menambahkan type declaration, kita bisa tambahkan setelah kata kunci var di properties
+// * Contoh type nya adalah string , int
 
 
 
