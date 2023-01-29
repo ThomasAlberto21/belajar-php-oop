@@ -6,9 +6,7 @@
 // * Namun agar aman, sebelum melakukan casts, pastikan kita melakukan type check (pengecekan tipe data), dengan menggunakan kata kunci instanceof
 // * Hasil operator instanceof adalah boolean, true jika tipe data sesuai, false jika tidak sesuai
 
-use BackendProgrammer as GlobalBackendProgrammer;
-use FrontendProgrammer as GlobalFrontendProgrammer;
-use Programmer as GlobalProgrammer;
+
 
 class Programmer
 {
