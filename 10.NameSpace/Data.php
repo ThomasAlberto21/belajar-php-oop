@@ -58,5 +58,5 @@ namespace thankYou {
         echo "Hello $nama" . PHP_EOL;
     }
 
-    const SAYGOODBYE = "Thank You Thomas" . PHP_EOL;
+    const SAYGOODBYE = "Thank You" . PHP_EOL;
 }
