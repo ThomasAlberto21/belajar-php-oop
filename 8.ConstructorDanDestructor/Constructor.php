@@ -11,3 +11,4 @@ require_once "Person.php";
 
 
 $person = new Person("Thomas Alberto", 12221355, "12.1B.30");
+echo "Program Selesai" . PHP_EOL;
