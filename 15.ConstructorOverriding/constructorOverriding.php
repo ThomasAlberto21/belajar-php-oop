@@ -5,7 +5,6 @@ require_once "Data.php";
 
 $presiden = new Presiden();
 $presiden->nama = "Jokowi";
-$presiden->title = "Presiden";
 $presiden->sayHello("Maaruf amin");
 
 $wakilPresiden = new wakilPresiden();
