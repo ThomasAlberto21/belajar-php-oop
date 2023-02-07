@@ -2,9 +2,9 @@
 
 require_once "Data.php";
 
-use Data\{Avanza};
+use Data\{Toyota};
 
-$car = new Avanza();
+$car = new Toyota();
 $car->drive();
 $car->getDrive();
 $car->getBrand();

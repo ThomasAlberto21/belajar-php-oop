@@ -19,7 +19,7 @@ namespace Data {
     }
 
 
-    interface Car extends hasBrand
+    interface Mobil extends hasBrand
     {
         function drive();
 
@@ -28,12 +28,12 @@ namespace Data {
 
 
 
-    class Avanza implements Car, isMaintenance
+    class Toyota implements Mobil, isMaintenance
     {
 
         function drive()
         {
-            echo "Drive Avanza" . PHP_EOL;
+            echo "Drive Toyota" . PHP_EOL;
         }
 
         function getDrive()
