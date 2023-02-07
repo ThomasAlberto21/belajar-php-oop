@@ -19,7 +19,7 @@ namespace Data {
     }
 
 
-    interface Mobil extends hasBrand
+    interface Mobil extends hasBrand, isMaintenance
     {
         function drive();
 
@@ -28,7 +28,7 @@ namespace Data {
 
 
 
-    class Toyota implements Mobil, isMaintenance
+    class Toyota implements Mobil
     {
 
         function drive()
