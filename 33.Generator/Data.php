@@ -24,7 +24,7 @@ foreach (getGenap(100) as $value) {
 
 
 
-// ! Menggunakan iterator cepat
+// ! Menggunakan Generator
 function getGanjil(int $max): Iterator
 {
 
